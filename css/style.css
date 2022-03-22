@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap');
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 body{
 	margin:0;
@@ -12,7 +12,7 @@ body{
 	box-sizing: border-box;
 	margin:0;
 	padding:0;
-	font-family: 'proxima-nova', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 /*Header*/
@@ -258,7 +258,7 @@ header .ham-burger.active span:nth-child(2){
 	color:#ffffff;
 	text-align: center;
 	margin:0;
-	font-family: 'proxima-nova', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -294,7 +294,7 @@ header .ham-burger.active span:nth-child(2){
 	color:#ffffff;
 	margin:0;
 	padding:0px 0px 20px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .service .content .text .btn{
@@ -362,7 +362,7 @@ header .ham-burger.active span:nth-child(2){
 	color:#ffffff;
 	margin:0;
 	padding:0;
-	font-family: 'Open Sans', sans-serif;	
+	font-family: 'Montserrat', sans-serif;	
 }
 
 
@@ -416,7 +416,7 @@ header .ham-burger.active span:nth-child(2){
     color: #000000;
     margin: 0;
     padding: 0px 0px 30px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -488,7 +488,7 @@ header .ham-burger.active span:nth-child(2){
     text-align:left;
     margin: 0;
     padding:0 0 20px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .classes .content .class-items .item .item-text a{
  font-size: 16px;
@@ -538,7 +538,7 @@ header .ham-burger.active span:nth-child(2){
     color: #ffffff;
     margin: 0;
     padding: 0px 0px 20px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .start-today .content .text .btn{
@@ -596,7 +596,7 @@ header .ham-burger.active span:nth-child(2){
     color: #222222;
     margin: 0;
     padding: 0px 0px 20px;
-    font-family: 'proxima-nova', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .schedule .content .text img{
 	width: 100%;
@@ -694,7 +694,7 @@ header .ham-burger.active span:nth-child(2){
  margin:0;
  text-align: center;
  padding:0 20% 50px;
- font-family: 'Open-sans', sans-serif;
+ font-family: 'Montserrat', sans-serif;
 }
 
 .price-package .content{
@@ -735,7 +735,7 @@ header .ham-burger.active span:nth-child(2){
  margin:0;
  text-align: center;
  padding:0 0 5px;
- font-family: 'Open-sans', sans-serif;	
+ font-family: 'Montserrat', sans-serif;	
 }
 .price-package .content .box .inner .text .btn{
     padding: 8px 30px;
@@ -786,7 +786,7 @@ header .ham-burger.active span:nth-child(2){
  margin-bottom: 25px;
  background-color: transparent;
  border:1px solid #ffffff;
- font-family: 'Open-sans',sans-serif;
+ font-family: 'Montserrat',sans-serif;
  color:#ffffff;
 }
 .contact .content .form input:focus,
@@ -808,7 +808,7 @@ header .ham-burger.active span:nth-child(2){
 	height: 45px;
 	padding:0px 50px;
 	border:1px solid transparent;
-	background-color: #c11325;
+	background-color: #b03a1e;
 	color:#ffffff;
 	font-size: 15px;
 	transition: all .5s ease;
@@ -832,7 +832,7 @@ header .ham-burger.active span:nth-child(2){
     color: #ffffff;
     margin: 0;
     padding: 0px 0px 30px;
-    font-family: 'Open-sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contact .content .text .info ul{
@@ -849,7 +849,7 @@ header .ham-burger.active span:nth-child(2){
 	letter-spacing: 1px;
 	position: relative;
 	padding-left: 40px;
-	font-family: 'Open-Sans',sans-serif;
+	font-family: 'Montserrat',sans-serif;
 }
 .contact .content .text .info li span{
 	display: inline-block;
@@ -867,7 +867,7 @@ header .ham-burger.active span:nth-child(2){
 	width: 40px;
 	line-height: 40px;
 	text-align: center;
-	background-color: #c11325;
+	background-color: #b03a1e;
     text-decoration: none;	
     display: inline-block;
     margin-right: 10px;
