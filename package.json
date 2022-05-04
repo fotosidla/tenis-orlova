@@ -1,0 +1,25 @@
+{
+  "name": "gymwebsite",
+  "version": "1.0.0",
+  "description": "Fitness website to be linked with a fitness app. Started as a school project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mian-ali/GymWebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mian-ali/GymWebsite/issues"
+  },
+  "homepage": "https://github.com/mian-ali/GymWebsite#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemailer": "^6.7.4",
+    "nodemailer-mailgun-transport": "^2.1.3"
+  }
+}
