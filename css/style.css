@@ -38,6 +38,12 @@ header .logo a{
 	text-decoration: none;
 	color:#ffffff;
 	font-weight: 700;
+	display: flex;
+	align-items: center;
+}
+header .logo img{
+	max-width: 50px;
+	margin-right: 10px;
 }
 header .logo a span{
 	color:#ffe900;
@@ -921,7 +927,14 @@ header .ham-burger.active span:nth-child(2){
 /*if screen width is less than or equal to 767px then*/
 @media(max-width: 767px){
   .home h1{
-      font-size: 40px;
+    font-size: 40px;
+  }
+  header .logo a {
+    font-size: 21px;
+  }
+  header .logo img {
+    max-width: 50px;
+    margin-right: 10px;
   }
   .about .content{
   	 flex-wrap: wrap;
