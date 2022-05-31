@@ -3,26 +3,26 @@
 <head>
 	<title>TK Slovan Orlová</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+	  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+	<link rel="stylesheet" href="./css/animate.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
   <style>
     .wow:first-child {
       visibility: hidden;
     }
   </style>
-  
 </head>
 <body>
- 
  <!-- Start Header  -->
  <header>
  	 <div class="container">
- 	 	<div class="logo">
- 	 		<a href="">
-				<img src="images/logo.png" title="TK Slovan Orlová" alt="TK Slovan Orlová" />
-				TK&nbsp;<span>Slovan</span>&nbsp;Orlová
-			</a>
- 	 	</div>
+		<div class="logo">
+			<a href="">
+			  <img src="images/logo.png" title="TK Slovan Orlová" alt="TK Slovan Orlová" />
+			  TK&nbsp;<span>Slovan</span>&nbsp;Orlová
+		  </a>
+		</div>
  	 	<a href="javascript:void(0)" class="ham-burger">
  	       <span></span>	
  	       <span></span>
@@ -176,7 +176,7 @@
 			<p>Jednotná cena 100 Kč / hod</p>
 		</div>
 		
-		 <div class="content">
+		 <!-- <div class="content">
 		 	  <div class="box img wow slideInLeft">
 				<div class="class-items">
 		 	  	 <div class="item wow bounceInUp">
@@ -237,7 +237,7 @@
 		 	  	 </div>
 		 	  	</div>
 		 	  </div>
-		 </div>
+		 </div> -->
 	</div>
 </section>
 <!-- End Classes -->
@@ -324,25 +324,23 @@
 <!-- End Schedule -->
 
 <!-- Start Gallery -->
-  <section class="gallery" id="gallery">
 	<div class="stred">
 		<h1>Naše kurty</h1>
  </div>
-  	<div class="content">
-  		 <div class="box wow slideInLeft">
-  		 	 <img src="images/gallery.jpeg" alt="gallery" />
-  		 </div>
-  		 <div class="box wow slideInRight">
-  		 	 <img src="images/gallery.jpeg" alt="gallery" />
-  		 </div>
-  		 <div class="box wow slideInLeft">
-  		 	 <img src="images/gallery.jpeg" alt="gallery" />
-  		 </div>
-  		 <div class="box wow slideInRight">
-  		 	 <img src="images/gallery.jpeg" alt="gallery" />
-  		 </div>
-  	</div>
-  </section>
+ <div class="carousel">
+	<div>
+		<img src="/images/Kurty-0001.jpg">
+	</div>
+	<div>
+		<img src="/images/Kurty-0002.jpg">
+	</div>
+	<div>
+		<img src="/images/Kurty-0003.jpg">
+	</div>
+	<div>
+		<img src="/images/Kurty-0004.jpg">
+	</div>
+</div>
 <!-- End Gallery -->
 
  <!-- Start Price -->
@@ -452,8 +450,24 @@
 
 
  <!-- jquery -->
-
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+ <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+ <script type="text/javascript">
+	 $(document).ready(function(){
+		 $('.carousel').slick({
+		 slidesToShow: 3,
+		 dots:true,
+		 centerMode:true,
+		 arrows:true,
+		 draggable:true,
+		 responsive:true,
+		 swipe:true,
+		 adaptiveHeight: true,
+		 });
+	   });
+   </script>
 <script>
 	$(document).ready(function(){
 

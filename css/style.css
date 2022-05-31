@@ -376,8 +376,9 @@ header .ham-burger.active span:nth-child(2){
 
 .classes{
 	padding:80px 0px 50px;
-	background-color: #ffffff;
+	background-color: #222222;
 }
+
 
 .stred h1{
 	text-align: center;
@@ -390,6 +391,9 @@ header .ham-burger.active span:nth-child(2){
 	margin-bottom: 20px;
 	text-align: center;
 	padding: 0px 0px 10px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
 }
 
 .classes .content{
@@ -927,7 +931,7 @@ header .ham-burger.active span:nth-child(2){
 /*if screen width is less than or equal to 767px then*/
 @media(max-width: 767px){
   .home h1{
-    font-size: 40px;
+      font-size: 40px;
   }
   header .logo a {
     font-size: 21px;
@@ -1001,5 +1005,29 @@ flex: 0 0 100%;
       font-size: 30px;
   }
 }
+
+.carousel{
+	width:90%;
+	margin:0px auto;
+	
+  }
+  .slick-slide{
+	margin:10px;
+  }
+  .slick-slide img{
+	width:100%;
+	border: 2px solid #fff;
+  }
+  .wrapper .slick-dots li button:before {
+	font-size:20px;
+	color:rgb(0, 0, 0);
+  }
+  .slick-prev:before {
+	color: black;
+  }
+  
+  .slick-next:before {
+	color: black;
+  }
 
 
