@@ -869,6 +869,11 @@ header .ham-burger.active span:nth-child(2){
 	font-size: 20px;
 	color:#ffe900;
 }
+
+.contact .content .text .info a{
+	color: #ffffff;
+}
+
 .contact .content .text .social {
 	padding-top: 30px;
 }

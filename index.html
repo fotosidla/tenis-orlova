@@ -451,11 +451,11 @@
      <div class="container">
         <div class="content">
             <div class="box form wow slideInLeft">
-               <form>
-                  <input type="text" placeholder="Jméno">
-                  <input type="text" placeholder="Email">
-                  <input type="text" placeholder="Telefon">
-                  <textarea placeholder="Vaše zpráva"></textarea>
+				<form action="https://submit-form.com/TH2Y3I4A">
+				  <input type="text" id="name" name="name" placeholder="Jméno" required="" />
+				  <input type="email" id="email" name="email" placeholder="Email" required="" />
+                  <input type="phone" id="phone" name="phone" placeholder="Telefon" />
+                  <textarea id="message" name="message"  placeholder="Vaše zpráva" required=""></textarea>
                   <button type="submit">Odeslat</button>
                </form>
             </div>
@@ -463,9 +463,9 @@
                  <h2>Kontakt</h2>
                   <p class="title-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                   <div class="info">
-                      <ul>
+                      <a>
                           <li><span class="fa fa-map-marker"></span> Tenisové kurty Slovan Orlová, Palackého 791, Orlová Město 73511</li>
-                          <li><span class="fa fa-phone"></span> 737756275 (správce)</li>
+                          <li><a href="tel:+420737756275"><span class="fa fa-phone"></span> +420-737756275 (správce)</li></a>
                           <li><span class="fa fa-envelope"></span> info@tkslovanorlova.cz</li>
                       </ul>
                   </div>
@@ -503,7 +503,7 @@
 		   breakpoint: 768,
 		   settings: {
 		   slidesToShow: 1,
-		   centerMode: false, /* set centerMode to false to show complete slide instead of 3 */
+		   centerMode: false,
 		   slidesToScroll: 1,
 		   dots: false,
 		   }
